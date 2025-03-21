@@ -6,7 +6,7 @@ repository: Git repository where your resume will be hosted, only required if yo
 version: 2
 
 # Personal info
-name: Kim Min-Je
+name: Kim Min Je
 title: Android Developer
 email: minjek90@gmail.com
 # email_title: Email (Email title override)
