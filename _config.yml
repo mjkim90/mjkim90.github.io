@@ -112,6 +112,8 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+encoding: "utf-8"
+
 
 exclude : [
   "Gemfile",
