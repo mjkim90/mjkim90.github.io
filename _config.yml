@@ -49,15 +49,15 @@ about_content: | # this will include new lines to allow paragraphs
     - Images ![alt text](/images/kim-min-je.jpg "Trees")
 
 content:
-  - title: Projects # Title for the section
+  - title: Company # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
         border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
-        title: Project name
+        title: 주식회사 이지테크핀
         link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        link_text: 2024.01 - 2025.02
         additional_links:
           - title:  Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-github
@@ -65,8 +65,8 @@ content:
           - title:  Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-github
             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        quote: >
-          Short overview of the project (optional)
+        description: | # this will include new lines to allow paragraphs
+          Description about the work on/with the project
         description: | # this will include new lines to allow paragraphs
           Description about the work on/with the project
   - title: Experience
