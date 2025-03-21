@@ -38,8 +38,7 @@ additional_links:
 # about_title: About Me (Use this to override about section title)
 about_profile_image: (/images/kim-min-je.jpg "Profile")
 about_content: | # this will include new lines to allow paragraphs
-<mark>안녕하세요.  더 나은  앱을 만들기 위해 노력하는 개발자 김민제 입니다.</mark>
-7년차 안드로이드개발자로 SI회사에서 Android 개발을 시작하였으며 SI업체에서의 신입시절 및 여행계 스타트업, 사물인터넷(IoT)기술 기반 도어락 스타트업, 블록체인을 활용한 핀테크관련 스타트업에서 근무하여
+  안녕하세요.  더 나은  앱을 만들기 위해 노력하는 개발자 김민제 입니다. 7년차 안드로이드개발자로 SI회사에서 Android 개발을 시작하였으며 SI업체에서의 신입시절 및 여행계 스타트업, 사물인터넷(IoT)기술 기반 도어락 스타트업, 블록체인을 활용한 핀테크관련 스타트업에서 근무하여
 많은 기술에 대한 경험과 많은 유저들이 사용하는 서비스를 기능개발 및 유지보수를 진행 하였으며 새로운 기능을 추가하고 국내 및 해외 단말기에 대한 경험도 쌓을 수 있었습니다. 사용자가 필요로하고 원하는 서비스가 무엇인지에 대한 이해도 높일 수 있었습니다.
 
   You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
