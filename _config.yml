@@ -23,34 +23,48 @@ github_username: mjkim90
 #   url: https://twitter.com/yourhandle
 
 # About Section
-about_profile_image: (/images/kim-min-je.jpg "Profile")
+about_profile_image: /images/kim-min-je.jpg
 about_content: |
-  안녕하세요. 더 나은 앱을 만들기 위해 노력하는 개발자 김민제 입니다.
-  7년차 안드로이드 개발자로서, 다양한 스타트업과 SI 환경에서 사용자 중심의 앱을 개발해 왔습니다.
+  **안녕하세요. 더 나은 앱을 만들기 위해 노력하는 개발자 김민제 입니다.**
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="https://google.com">Links</a>
-    - Images ![alt text](/images/kim-min-je.jpg "Trees")
+  7년차 안드로이드 개발자로 SI회사에서 Android 개발을 시작하였으며  
+  SI업체에서의 신입시절 및 여행계 스타트업, 사물인터넷(IoT) 기술 기반 도어락 스타트업,  
+  블록체인을 활용한 핀테크 관련 스타트업에서 근무하며  
+  많은 기술에 대한 경험과 많은 유저들이 사용하는 서비스를 기능개발 및 유지보수를 진행하였으며  
+  새로운 기능을 추가하고 국내 및 해외 단말기에 대한 경험도 쌓을 수 있었습니다.  
+  사용자가 필요로 하고 원하는 서비스가 무엇인지에 대한 이해도 높일 수 있었습니다.
+  - Images ![alt text](/images/kim-min-je.jpg "Trees")
 
 content:
   - title: Company
     layout: list
     content:
       - layout: left
-        border: weak
         title: 주식회사 이지테크핀
-        link: https://eztechfin.com
-        link_text: 2024.01 - 2025.02
-        additional_links:
-          - title: Github page for project
-            icon: fab fa-github
-            url: https://github.com/mjkim90/project1
+        caption: 2024.01 - 2025.02
         description: |
-          핀테크 기반 안드로이드 앱 개발 및 유지보수 진행
+          2019년 설립 / 주식투자 기법을 알고리즘화한 로보어드바이저 기능을 서비스하는 블록체인 및 핀테크 전문 스타트업
 
-  - title: Experience
+      - layout: left
+        title: 주식회사 참깨연구소
+        caption: 2020.09 - 2023.04
+        description: |
+          2018년 설립 / 스마트도어락을 통한 사물인터넷(IoT) 기반 공간관리 솔루션 기업      
+
+      - layout: left
+        title: 와그
+        caption: 2018.09 - 2020.04
+        description: |
+          2016년 설립 / 대한민국 No.1 여행 액티비티 예약 플랫폼 기업
+          
+      - layout: left
+        border: weak
+        title: 뉴프롬
+        caption: 2016.12 - 2018.05
+        description: |
+          2010년 설립 / 응용 소프트웨어 개발 및 공급업을 담당하는 기업
+
+  - title: Project
     layout: list
     content:
       - layout: right
@@ -61,18 +75,6 @@ content:
           Short description of the company (optional)
         description: |
           Description of role
-
-  - title: Education
-    layout: list
-    content:
-      - layout: top-right
-        title: Institution name
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: 2016 - 2019
-        quote: >
-          Short institution or course description (optional)
-        description: |
-          Description of qualification
 
   - title: A Little More About Me
     layout: text
