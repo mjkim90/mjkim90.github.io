@@ -36,7 +36,7 @@ about_content: |
   사용자 입장에서 "꼭 필요한 기능이 무엇인가?"를 고민하며,
   더 편리하고 안정적인 사용자 경험을 만들어가는 개발자가 되고자 합니다.
 
-  
+
   **기술 스택**
 
    - 언어: `Kotlin`, `Java`
@@ -48,152 +48,263 @@ about_content: |
    - ETC: `BLE`,`Retrofit`, `다국어 지원`, `CI/CD(GitHub Actions)`
 
 content:
-  - title: Company
+  - title: Work Experience
     layout: list
     content:
       - layout: left
-        title: 이지테크핀
-        caption: 2024.01 - 2025.02
+        title: 이지테크핀 
+               <br>
+               (2024.01 - 2025.02)
         description: |
-          **주요 업무**
-          - DayUp(주식종목에 대한 정보, 분석, 매매전략을 할 수 있는 투자정보 서비스 Android 앱 개발)
-          - FinUp(주식멘토를 통한 주식강의서비스 Android 앱 개발)
-          - 단테트레이딩M/T(주식 자동화거래 설정, 농사매매 전략 서비스 Android 앱 개발)
+          <h2><strong>DayUp (2024.01 - 2024.12)</strong></h2>
+
+          **요약**  
+            주식 정보를 분석하고 전략을 제공하는 투자 플랫폼 앱 입니다.
+          
+          **주요업무**  
+            - Retrofit을 통한 서버 통신 및 SCI Chart를 이용한 주식 차트 구현
+            - LiveData → StateFlow/SharedFlow로 Observer 구조 전환
+            - Clean Architecture 구조 기반 프로젝트 설계
+            - Room을 통한 로컬저장 데이터 적용
+            - 차트 라이브러리(SciChart)를 이용하여 양봉 차트 구현 (분, 일, 주, 월)
+            - AppSealing 적용(Proguard)
+            - 기존 SharedPreferences → DataStore 마이그레이션
+            
+            **사용기술**
+              `Kotlin`, `MVVM`, `Hilt`, `Room`, `Retrofit`, `Coroutine`,`Firebase`, `Jetpack`, `GitHub Actions`
+              
+            **느낀 점**
+            - Clean Architecture의 사용 DataStore 로컬데이터저장,
+              Compose로 UI를 구성 및 Hilt의 사용등 이전에 사용하지 않던 신규기능에 대한 추가를 많이 하면서 스킬업을 할 수 있었던 프로젝트 였습니다.
+            
+            <br>
+            
+            <h2><strong>FinUp(2024.03 - 2024.12)</strong></h2>
+
+            **요약**  
+              주식 멘토링 교육 콘텐츠 제공 플랫폼 앱 입니다.
+          
+            **주요업무**
+              - Retrofit 기반 RESTful API 통신
+              - Netty 기반 채팅 서버 연동 및 송수신 UI 구현
+              - 메인 화면 리뉴얼 및 채팅 UX 개선
+              - Crashlytics 기반 버그 수정 및 앱 배포 운영
+
+            **사용기술**
+              `Kotlin`, `MVVM`, `Hilt`, `Room`, `Retrofit`, `Coroutine`,`Firebase`, `Jetpack`, `GitHub Actions`
+            
+            **느낀 점**
+              - 외부 고객사의 앱을 유지보수하고 기능을 추가하면서, 고객사와의 화상 미팅을 통해 요구사항을 파악하고 진행 상황을 공유하는 등 커뮤니케이션 능력을 향상시킬 수 있었습니다.
+
+            <br>
+
+            <h2><strong>단테트레이딩(2024.06 - 2024.12)</strong></h2>
+            
+            **요약**
+              주식 자동매매 및 전략 기능을 제공하는 고급 사용자용 거래 자동화 앱입니다.
+            
+            **주요업무**
+              - Room 기반 로컬 저장 처리 (주식/개인 정보)
+              - SCIChart를 통한 실시간 주식 차트 구현
+              - 휴장일 등 거래시간 예외 처리 구현
+              - Retrofit 기반 API 연동
+            
+            **사용기술**
+              `Kotlin`, `RxAndroid`, `SCIChart`, `MVVM`, `Retrofit2`, `Room`
+            
+            **느낀 점**
+              - 키움증권 API를 활용한 실시간 데이터 처리와 주식추천 기능을 구현하며 계좌 관리와 그래프 처리 등 복합적인 기능 개발 경험을 쌓을 수 있었습니다.
+  
+            <hr>
+
       - layout: left
         title: 참깨연구소
-        caption: 2020.09 - 2023.04
+               <br>
+               (2020.09 - 2023.04)
         description: |
-          **주요 업무**
-          - Keyring(비콘과 저전력 블루투스 기술을 이용한 아파트 공동현관 문열림 Android 앱 개발)
-          - MobilePass(NFC와 저전력 블루투스 기술을 이용한 출입 시스템 Android 앱 개발)
-          - DoorBell(Firebase MLKit을 이용한 얼굴인식처리를 통한 출입처리 Android 앱 개발)
-          - Premo(저전력 블루투스 기술을 이용한 도어락 및 하드웨어장비 연결 Android 앱 개발)
+          <h2><strong><a href="https://play.google.com/store/search?q=keyring&c=apps&hl=ko" target="_blank">Keyring</a>(2022.2 - 2023.04) 플레이스토어 다운로드수 <span style="color:red">10만</span>이상</strong></h2>
 
-          - [특이사항] [Keyring](https://play.google.com/store/search?q=keyring&c=apps&hl=ko) 다운로드수 <span style="color:red"><strong>10만</strong></span> 이상
+          **요약**  
+            비콘과 저전력 블루투스 기술을 이용한 아파트 공동현관 문열림 앱 입니다.
+          
+          **주요업무**  
+            - Restful (Retrofit)을 이용한 서버 통신
+            - RxAndroid를 이용한 옵저버 패턴 적용
+            - Github CI/CD 배포화를 통한 앱번들 파일 생성 자동화
+            - LocationManager와 GPSListener를 활용한 실시간 위치추적 기능(근태관리기능)
+            - 아파트 공동현관 장치와의 Beacon 연결 및 BLE기능이 탑재되어 있는 TINA SDK 모듈 개발진행
+            - AAC, MVVM패턴을 조합한 설계 적용
+            - 아파트 공동현관 문열림 실시간 데이터세팅(logtail)
+            - Amplitude를 이용한 모바일 데이터 분석
+            - 일본, 싱가폴 등 다국어 처리 진행
+            
+            **사용기술**
+              `Kotlin`, `RxAndroid`, `LocationManager`, `MVVM`, `BLE`, `Beacon`, `GitHub Actions`
+              
+            **느낀 점**
+            - BLE와 Beacon 기술에 대한 관심이 생긴 계기가 되었고, MultiModule 구조로 개발하며 유지보수에 초점을 맞춘 코딩 경험을 쌓을 수 있었습니다.
+
+      - layout: left
+        description: |
+          <h2><strong>MobilePass(2021.10 - 2021.12)</strong></h2>
+
+          **요약**  
+            NFC와 저전력 블루투스 기술을 이용한 출입시스템 앱 입니다.
+          
+          **주요업무**
+          - Restful (Retrofit2)을 이용한 서버 통신
+          - BLE 기술을 이용한 사옥 입구 출입제어 기능 개발진행
+          - NFC 기술을 이용한 태깅 기능을 통한 스캔 개발진행
+          - SMS Retriever API를 이용한 문자메시지 캐치 기능추가
+          
+          **사용기술**
+          `Kotlin`, `BLE`, `NFC`, `Jetpack`
+          
+          **느낀 점**
+          - 처음 접한 NFC 기술을 프로젝트에 적용하며 사전 스터디를 통해 기술 이해도를 높일 수 있는 계기가 되었습니다.
+      
+      - layout: left
+        description: |
+          <h2><strong>Doorbell(2021.04 - 2021.08)</strong></h2>
+
+          **요약**  
+            Firebase MLKit을 이용한 얼굴인식처리를 통한 출입처리 앱 입니다.
+          
+          **주요업무**
+          - SurfaceView와 Camera API을 활용한 카메라 기능 구현
+          - Firebase MLKit을 통한 얼굴인신 처리 개발진행
+          - 이미지 리소스 용량 초과로 인한 비트앱 리사이징 처리 개발진행
+          - AAC, MVVM패턴을 조합한 설계 적용
+          
+          **사용기술**
+          `Kotlin`, `Camera API`, `MLKit`, `AAC`, `MVVM`, `Image Resize`
+          
+          **느낀 점**
+          - Camera Api의 동작방식과 SurfaceView 클래스에 대해 깊게 알아 볼 수 있었습니다.
+
+      - layout: left
+        description: |
+          <h2><strong>Premo(2020.09 - 2021.04)</strong></h2>
+
+          **요약**  
+            저전력 블루투스 기술을 이용한 도어락 및 하드웨어장비 연결기능 앱 입니다.
+          
+          **주요업무**
+          - Airbnb Api 인증을 위한 CAPTCHA 인증철차 기능추가
+          - BLE 기술을 이용한 도어락문열림 기능 개발  및 하드웨어장비 연결 기능 개발
+          - 구글 GeoCoding기술을 이용한 역지오코딩 개발진행
+          
+          **사용기술**
+          `Kotlin`, `Airbnb API`, `BLE`, `GeoCoding'
+          
+          **느낀 점**
+          - 기존 GeoCoding이 아닌 역지오코딩을 구현함으로써 지오코딩에 대한 개념을 쌓을 수 있었습니다.
+          
+          <hr>  
+
       - layout: left
         title: 와그
-        caption: 2018.09 - 2020.04
+               <br>
+               (2018.09 - 2020.04)
         description: |
-          **주요 업무**
-          - WAUG(자바코드를 코틀린으로 마이그레이션 작업진행 및 국내 및 해외결제 Android 앱 개발)
-          - WAUG Partner(Zxing기술을 이용한 상품 스캔 기능 Android 앱 개발)
+          <h2><strong><a href="https://play.google.com/store/search?q=waug&c=apps&hl=ko" target="_blank">WAUG</a>(2018.9 - 2020.04) 플레이스토어 다운로드수 <span style="color:red">100만</span>이상</strong></h2>
 
-          - [특이사항] [WAUG](https://play.google.com/store/search?q=waug&c=apps&hl=ko) 다운로드수 <span style="color:red"><strong>100만</strong></span> 이상
+          **요약**  
+            대한민국 NO1 예약관리 플랫폼 예약 앱 입니다.
+          
+          **주요업무**  
+            - Restful (Retrofit)을 이용한 서버 통신
+            - 네이버페이, 토스페이 국내결제 개발 작업진행
+            - 페이팔, 아디엔 해외결제 개발 작업진행
+            - 10개국에 관련한 통화 및 언어 다국어 처리 진행
+            - 기존 언어인 Java에서 Kotlin 언어로 프로젝트 전체 마이그레이션 진행
+            - Youtube In App 작업을 통한 백그라운드 이슈 처리 진행
+            - AppsFlyer를 이용한 모바일 데이터분석 처리
+            - 디자이너와 기획자의 의도에 맞게 커스텀 뷰를 통한 캘린더 기능 개발
+            
+            **사용기술**
+              `Kotlin`, `Youtube API`, `AppsFlyer`, `Calendar`, `CustomView`, `다국어 처리`,`Paypal`, `Adyen`
+              
+            **느낀 점**
+            - Java → Kotlin 마이그레이션을 통해 Kotlin 문법과 확장 함수에 익숙해졌고, 다국어 및 해외 통화 처리 경험을 쌓을 수 있었습니다.
+
       - layout: left
-        border: none
-        title: 뉴프롬
-        caption: 2016.12 - 2018.05
         description: |
-          **주요 업무**
-          - 기프티쇼(락스크린 기능 추가 및 webview bridge를 통한 Android 앱 개발)
-          - AJ렌터카(VPN 기능 추가 및 웹뷰 post통신을 통한 사용자정보 기능추가 Android 앱 개발)
-          - 롯데메신져(Netty로 구성된 Android앱 분석 및 전체적인 UI개발 및 수정)
+          <h2><strong>WAUG PARTNER(2019.02 - 2019.04)</strong></h2>
 
-  - title: Project
-    layout: list
-    content:
-            - layout: left
-              title: DayUp
-              sub_title: 주식 정보를 분석하고 전략을 제공하는 투자 플랫폼 앱
-              caption: 2024.01 - 2025.02
-              description: |
-                **Description.**  
-                주식 종목에 대한 실시간 분석과 매매 전략을 설정할 수 있는 Android 앱입니다.  
-                초보 투자자부터 고급 사용자까지 다양한 유저 니즈를 반영한 기능을 개발했습니다.
-                
-                **What did I do.**  
-                - 관심 종목 실시간 분석 기능 개발 (Kotlin + MVVM)  
-                - 자동매매 전략 설정 및 차트 기반 분석 기능 개발  
-                - Firebase Remote Config, Crashlytics 연동  
-                - Android 13~14 대응 및 다크모드 대응
-        
-                **Tech Stack.**  
-                `Kotlin`, `MVVM`, `Hilt`, `Room`, `Retrofit`, `Coroutine`,  
-                `Firebase`, `Jetpack`, `GitHub Actions`
-        
-            - layout: left
-              title: FinUp
-              sub_title: 주식 멘토링 교육 콘텐츠 제공 플랫폼
-              caption: 2024.03 - 2024.11
-              description: |
-                **Description.**  
-                주식 전문가들이 강의와 텍스트로 멘토링 콘텐츠를 제공하고, 사용자가 수강할 수 있는 플랫폼입니다.  
-                영상 기반 콘텐츠, 구독형 알림 등 학습 중심의 기능을 제공합니다.
-        
-                **What did I do.**  
-                - Firebase Auth 기반 로그인/회원가입 구현  
-                - 강사/수강생 권한 분리 및 UI 분리 설계  
-                - ExoPlayer 기반 강의 플레이어 구현  
-                - Firebase Push Notification을 통한 구독 알림 제공
-        
-                **Tech Stack.**  
-                `Kotlin`, `MVVM`, `ExoPlayer`, `Firebase`, `Hilt`, `Navigation`,  
-                `Room`, `LiveData`, `Coroutine`
-        
-            - layout: left
-              title: 단테트레이딩
-              sub_title: 주식 자동화거래 및 농사매매 전략 앱
-              caption: 2024.06 - 2024.12
-              description: |
-                **Description.**  
-                자동매매 설정, 전략 백테스트 기능 등을 제공하는 주식 거래 자동화 앱입니다.  
-                다양한 주식 거래 알고리즘을 설정하고 저장할 수 있는 고급 사용자 중심 앱입니다.
-        
-                **What did I do.**  
-                - 매매 전략 시나리오 설정 화면 및 저장 기능 구현  
-                - Firebase DB 연동을 통한 전략 저장 및 공유 기능  
-                - WebSocket 기반 실시간 시세 수신 구현  
-                - 백테스트 결과 차트 시각화
-        
-                **Tech Stack.**  
-                `Kotlin`, `MVVM`, `WebSocket`, `Firebase`, `Room`, `Chart`, `Jetpack`
-        
-            - layout: left
-              title: Keyring
-              sub_title: BLE 기반 공동현관 출입 앱
-              caption: 2020.09 - 2023.04
-              description: |
-                **Description.**  
-                아파트 공동현관 출입을 위해 비콘/BLE 신호를 이용한 자동 개방 앱입니다.  
-                사용자 위치 기반 인증, BLE 신호 수신 최적화 등을 수행했습니다.
-        
-                **What did I do.**  
-                - BLE 신호 인식 및 도어락 연동 처리 구현  
-                - Foreground 서비스 기반 출입 처리  
-                - 다양한 안드로이드 제조사 기기 테스트 및 대응  
-                - 다국어 대응 및 사용자 위치 권한 UX 개선
-        
-                **Tech Stack.**  
-                `Kotlin`, `BLE`, `Foreground Service`, `Jetpack`, `Room`, `LiveData`
-        
-            - layout: left
-              title: 와그(WAUG)
-              sub_title: 여행 액티비티 예약 플랫폼 앱
-              caption: 2018.09 - 2020.04
-              description: |
-                **Description.**  
-                국내외 여행 액티비티를 예약할 수 있는 안드로이드 앱으로, 100만 다운로드 이상 기록.  
-                국내/해외 결제 연동, 사용자 예약 및 바우처 확인 기능을 제공합니다.
-        
-                **What did I do.**  
-                - 전체 앱 코드를 Java → Kotlin으로 마이그레이션  
-                - 해외 결제 프로세스 연동 (토스, 아임포트 등)  
-                - 예약 내역 관리 및 바우처 QR 스캔 기능 개발  
-                - WAUG Partner 앱 개발 (Zxing 기반)
-        
-                **Tech Stack.**  
-                `Kotlin`, `Java`, `Zxing`, `Retrofit`, `MVVM`, `Room`, `Jetpack`, `Google Maps`
-        
-            - layout: left
-              title: 뉴프롬
-              sub_title: Android Developer
-              caption: 2016.12 - 2018.05
-              quote: >
-                다양한 기업 대상 커스터마이징 앱 개발 및 유지보수
-              description: |
-                **Description.**  
-                렌터카, 메신저, 모바일 쿠폰 앱 등 기업 전용 안드로이드 앱들을 커스터마이징 개발했습니다.  
-                VPN
+          **요약**  
+             B2B 거래처와의 상품기능 추가를 위한 거래처 앱 입니다.
+          
+          **주요업무**
+          - Retrofit 기반 RESTful API 통신
+          - SQLite를 통한 메모장 로컬저장 기능 개발진행
+          - Zxing 바코드 기능을 이용한 바코드 처리 및 바코드UI  커스텀View 개발진행
+          
+          **사용기술**
+          `Kotlin`, `Retrofit`, `SQLite`, `Zxing`, `CustomView`
+          
+          **느낀 점**
+          - Zxing 스캔 기능 외에도 UI 커스터마이징이 필요해지며, 커스텀 뷰에 대한 이해를 다시 다지는 계기가 되었습니다.
+
+          <hr>
+            
+      - layout: left
+        title: 뉴프롬
+               <br>
+               (2016.12 - 2018.06)
+        description: |
+          <h2><strong>기프티쇼 (2017.10 - 2018.05)</strong></h2>
+
+          **요약**  
+            모바일 쿠폰을 구매하고 선물할 수 있는 앱으로, 다양한 브랜드의 상품권을 간편하게 검색, 결제 플랫폼 앱 입니다.
+          
+          **주요업무**  
+            - Volley을 이용한 서버 통신
+            - 락스크린 기능 추가 개발진행
+            - webview bridge를 통한 Android 앱 개발
+            
+            **사용기술**
+              `Java`, `Volley`, `Android lock screen`, `Webview`
+              
+            **느낀 점**
+            - lock screen에 대한 이해와 웹뷰 브릿지를 활용하면서 Android와 JavaScript 간 함수 호출 방식에 대한 이해도를 높일 수 있었습니다.
+
+      - layout: left
+        description: |
+          <h2><strong>AJ렌터카(2017.05 - 2017.09)</strong></h2>
+
+          **요약**  
+          VPN 기반 보안 환경에서 웹뷰로 사용자 정보를 처리하는 기업용 렌터카 앱입니다.
+          
+          **주요업무**
+          - 외부라이브러리 VPN을 추가하여  로그인 로그아웃 개발진행
+          - Webview post 통신으로 사용자정보 동기화 처리 개발진행
+          
+          **사용기술**
+          `Java`, `3-party library`, `VPN`, `Webview`
+          
+          **느낀 점**
+          - 외부 라이브러리 활용 개념을 익힐 수 있었던 프로젝트였습니다.
+
+      - layout: left
+        description: |
+          <h2><strong>롯데메신저(2016.12 - 2017.03)</strong></h2>
+
+          **요약**  
+            채팅기능이 주로 있는 Netty 기반의 사내 메신저 앱 입니다.
+          
+          **주요업무**
+          - 전체적인 UI 개발 및 수정
+          - 채팅방 기능 수정 개발진행
+          - Netty 서버로 구성된 코드분석 진행 후 개발 기능 추가
+          
+          **사용기술**
+          `Java`, `Netty`, `UI`,`Zeplin`
+          
+          **느낀 점**
+          - Netty 서버를 활용하며 TCP와 UDP의 개념과 차이를 이해하게 된 프로젝트였습니다.
+
+
 
   - title: A Little More About Me
     layout: text
