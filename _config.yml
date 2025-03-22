@@ -27,61 +27,180 @@ about_profile_image: /images/kim-min-je.jpg
 about_content: |
   **안녕하세요. 더 나은 앱을 만들기 위해 노력하는 개발자 김민제 입니다.**
 
-  7년차 안드로이드 개발자로 SI회사에서 Android 개발을 시작하였으며  
-  SI업체에서의 신입시절 및 여행계 스타트업, 사물인터넷(IoT) 기술 기반 도어락 스타트업,  
-  블록체인을 활용한 핀테크 관련 스타트업에서 근무하며  
-  많은 기술에 대한 경험과 많은 유저들이 사용하는 서비스를 기능개발 및 유지보수를 진행하였으며  
-  새로운 기능을 추가하고 국내 및 해외 단말기에 대한 경험도 쌓을 수 있었습니다.  
-  사용자가 필요로 하고 원하는 서비스가 무엇인지에 대한 이해도 높일 수 있었습니다.
-  - Images ![alt text](/images/kim-min-je.jpg "Trees")
+  총 7년간 Android 앱 개발을 경험하며, 다양한 도메인(여행, IoT, 블록체인/핀테크)에서 앱 및 기능을 직접 개발 또는 리뉴얼한 경험이 있습니다.
+  **누적 100만 다운로드** 이상의 서비스 유지보수 및 기능 개선 경험이 있으며,
+  BLE 기반 IoT 앱부터 금융 로직을 포함한 핀테크 앱까지 다양한 기술 스택을 직접 다뤄봤습니다.
+  **Android 6부터 최신 Android 14까지** 다양한 OS 및 단말기 호환 문제 해결 경험도 풍부합니다.
+  다양한 스타트업에서 기획자·디자이너·서버 개발자와 긴밀하게 협업하며,
+  유저 중심의 기능을 기획부터 개발, 배포까지 전 과정에 참여했습니다.
+  사용자 입장에서 "꼭 필요한 기능이 무엇인가?"를 고민하며,
+  더 편리하고 안정적인 사용자 경험을 만들어가는 개발자가 되고자 합니다.
+
+  
+  **기술 스택**
+
+   - 언어: `Kotlin`, `Java`
+   - 아키텍처: `MVVM`, `Clean Architecture`
+   - 라이브러리:`Jetpack(Hilt,ViewModel,LiveData,Navigation,Room,WorkManager)`
+   - 비동기 처리: `Kotlin Coroutine`, `Flow`
+   - 앱 운영 관리 툴: `Firebase Crashlytics`
+   - Tool: `GitHub`,`GitLab`, `Figma`, `Jira`, `Zeplin`, `Android Studio`, `Gradle`
+   - ETC: `BLE`,`Retrofit`, `다국어 지원`, `CI/CD(GitHub Actions)`
 
 content:
   - title: Company
     layout: list
     content:
       - layout: left
-        title: 주식회사 이지테크핀
+        title: 이지테크핀
         caption: 2024.01 - 2025.02
         description: |
-          2019년 설립 / 주식투자 기법을 알고리즘화한 로보어드바이저 기능을 서비스하는 블록체인 및 핀테크 전문 스타트업
-
+          **주요 업무**
+          - DayUp(주식종목에 대한 정보, 분석, 매매전략을 할 수 있는 투자정보 서비스 Android 앱 개발)
+          - FinUp(주식멘토를 통한 주식강의서비스 Android 앱 개발)
+          - 단테트레이딩M/T(주식 자동화거래 설정, 농사매매 전략 서비스 Android 앱 개발)
       - layout: left
-        title: 주식회사 참깨연구소
+        title: 참깨연구소
         caption: 2020.09 - 2023.04
         description: |
-          2018년 설립 / 스마트도어락을 통한 사물인터넷(IoT) 기반 공간관리 솔루션 기업      
+          **주요 업무**
+          - Keyring(비콘과 저전력 블루투스 기술을 이용한 아파트 공동현관 문열림 Android 앱 개발)
+          - MobilePass(NFC와 저전력 블루투스 기술을 이용한 출입 시스템 Android 앱 개발)
+          - DoorBell(Firebase MLKit을 이용한 얼굴인식처리를 통한 출입처리 Android 앱 개발)
+          - Premo(저전력 블루투스 기술을 이용한 도어락 및 하드웨어장비 연결 Android 앱 개발)
 
+          - [특이사항] [Keyring](https://play.google.com/store/search?q=keyring&c=apps&hl=ko) 다운로드수 <span style="color:red"><strong>10만</strong></span> 이상
       - layout: left
         title: 와그
         caption: 2018.09 - 2020.04
         description: |
-          2016년 설립 / 대한민국 No.1 여행 액티비티 예약 플랫폼 기업
-          
+          **주요 업무**
+          - WAUG(자바코드를 코틀린으로 마이그레이션 작업진행 및 국내 및 해외결제 Android 앱 개발)
+          - WAUG Partner(Zxing기술을 이용한 상품 스캔 기능 Android 앱 개발)
+
+          - [특이사항] [WAUG](https://play.google.com/store/search?q=waug&c=apps&hl=ko) 다운로드수 <span style="color:red"><strong>100만</strong></span> 이상
       - layout: left
-        border: weak
+        border: none
         title: 뉴프롬
         caption: 2016.12 - 2018.05
         description: |
-          2010년 설립 / 응용 소프트웨어 개발 및 공급업을 담당하는 기업
+          **주요 업무**
+          - 기프티쇼(락스크린 기능 추가 및 webview bridge를 통한 Android 앱 개발)
+          - AJ렌터카(VPN 기능 추가 및 웹뷰 post통신을 통한 사용자정보 기능추가 Android 앱 개발)
+          - 롯데메신져(Netty로 구성된 Android앱 분석 및 전체적인 UI개발 및 수정)
 
   - title: Project
     layout: list
     content:
-      - layout: right
-        title: Company name
-        sub_title: Job title
-        caption: November 2016 - Present
-        quote: >
-          Short description of the company (optional)
-        description: |
-          Description of role
+            - layout: left
+              title: DayUp
+              sub_title: 주식 정보를 분석하고 전략을 제공하는 투자 플랫폼 앱
+              caption: 2024.01 - 2025.02
+              description: |
+                **Description.**  
+                주식 종목에 대한 실시간 분석과 매매 전략을 설정할 수 있는 Android 앱입니다.  
+                초보 투자자부터 고급 사용자까지 다양한 유저 니즈를 반영한 기능을 개발했습니다.
+                
+                **What did I do.**  
+                - 관심 종목 실시간 분석 기능 개발 (Kotlin + MVVM)  
+                - 자동매매 전략 설정 및 차트 기반 분석 기능 개발  
+                - Firebase Remote Config, Crashlytics 연동  
+                - Android 13~14 대응 및 다크모드 대응
+        
+                **Tech Stack.**  
+                `Kotlin`, `MVVM`, `Hilt`, `Room`, `Retrofit`, `Coroutine`,  
+                `Firebase`, `Jetpack`, `GitHub Actions`
+        
+            - layout: left
+              title: FinUp
+              sub_title: 주식 멘토링 교육 콘텐츠 제공 플랫폼
+              caption: 2024.03 - 2024.11
+              description: |
+                **Description.**  
+                주식 전문가들이 강의와 텍스트로 멘토링 콘텐츠를 제공하고, 사용자가 수강할 수 있는 플랫폼입니다.  
+                영상 기반 콘텐츠, 구독형 알림 등 학습 중심의 기능을 제공합니다.
+        
+                **What did I do.**  
+                - Firebase Auth 기반 로그인/회원가입 구현  
+                - 강사/수강생 권한 분리 및 UI 분리 설계  
+                - ExoPlayer 기반 강의 플레이어 구현  
+                - Firebase Push Notification을 통한 구독 알림 제공
+        
+                **Tech Stack.**  
+                `Kotlin`, `MVVM`, `ExoPlayer`, `Firebase`, `Hilt`, `Navigation`,  
+                `Room`, `LiveData`, `Coroutine`
+        
+            - layout: left
+              title: 단테트레이딩
+              sub_title: 주식 자동화거래 및 농사매매 전략 앱
+              caption: 2024.06 - 2024.12
+              description: |
+                **Description.**  
+                자동매매 설정, 전략 백테스트 기능 등을 제공하는 주식 거래 자동화 앱입니다.  
+                다양한 주식 거래 알고리즘을 설정하고 저장할 수 있는 고급 사용자 중심 앱입니다.
+        
+                **What did I do.**  
+                - 매매 전략 시나리오 설정 화면 및 저장 기능 구현  
+                - Firebase DB 연동을 통한 전략 저장 및 공유 기능  
+                - WebSocket 기반 실시간 시세 수신 구현  
+                - 백테스트 결과 차트 시각화
+        
+                **Tech Stack.**  
+                `Kotlin`, `MVVM`, `WebSocket`, `Firebase`, `Room`, `Chart`, `Jetpack`
+        
+            - layout: left
+              title: Keyring
+              sub_title: BLE 기반 공동현관 출입 앱
+              caption: 2020.09 - 2023.04
+              description: |
+                **Description.**  
+                아파트 공동현관 출입을 위해 비콘/BLE 신호를 이용한 자동 개방 앱입니다.  
+                사용자 위치 기반 인증, BLE 신호 수신 최적화 등을 수행했습니다.
+        
+                **What did I do.**  
+                - BLE 신호 인식 및 도어락 연동 처리 구현  
+                - Foreground 서비스 기반 출입 처리  
+                - 다양한 안드로이드 제조사 기기 테스트 및 대응  
+                - 다국어 대응 및 사용자 위치 권한 UX 개선
+        
+                **Tech Stack.**  
+                `Kotlin`, `BLE`, `Foreground Service`, `Jetpack`, `Room`, `LiveData`
+        
+            - layout: left
+              title: 와그(WAUG)
+              sub_title: 여행 액티비티 예약 플랫폼 앱
+              caption: 2018.09 - 2020.04
+              description: |
+                **Description.**  
+                국내외 여행 액티비티를 예약할 수 있는 안드로이드 앱으로, 100만 다운로드 이상 기록.  
+                국내/해외 결제 연동, 사용자 예약 및 바우처 확인 기능을 제공합니다.
+        
+                **What did I do.**  
+                - 전체 앱 코드를 Java → Kotlin으로 마이그레이션  
+                - 해외 결제 프로세스 연동 (토스, 아임포트 등)  
+                - 예약 내역 관리 및 바우처 QR 스캔 기능 개발  
+                - WAUG Partner 앱 개발 (Zxing 기반)
+        
+                **Tech Stack.**  
+                `Kotlin`, `Java`, `Zxing`, `Retrofit`, `MVVM`, `Room`, `Jetpack`, `Google Maps`
+        
+            - layout: left
+              title: 뉴프롬
+              sub_title: Android Developer
+              caption: 2016.12 - 2018.05
+              quote: >
+                다양한 기업 대상 커스터마이징 앱 개발 및 유지보수
+              description: |
+                **Description.**  
+                렌터카, 메신저, 모바일 쿠폰 앱 등 기업 전용 안드로이드 앱들을 커스터마이징 개발했습니다.  
+                VPN
 
   - title: A Little More About Me
     layout: text
     content: |
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+      - 프로젝트시 같은 팀원간의 커뮤니케이션을 중요시하고 각자 같은 이해도를 가지고 개발 하기를 원합니다.
+      - 나의 성장도 중요 하지만 회사의 성장도 중요하게 생각하여 긍정적인 마음으로 업무를 진행하려고 합니다.
+      - 함께 정한 기한은 반드시 지키려고 노력합니다.
 
 # Footer
 footer_show_references: true
