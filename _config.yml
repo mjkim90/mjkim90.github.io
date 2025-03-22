@@ -85,10 +85,10 @@ content:
               주식 멘토링 교육 콘텐츠 제공 플랫폼 앱 입니다.
           
             **주요업무**
-              - Retrofit 기반 RESTful API 통신
-              - Netty 기반 채팅 서버 연동 및 송수신 UI 구현
-              - 메인 화면 리뉴얼 및 채팅 UX 개선
-              - Crashlytics 기반 버그 수정 및 앱 배포 운영
+            - Retrofit 기반 RESTful API 통신
+            - Netty 기반 채팅 서버 연동 및 송수신 UI 구현
+            - 메인 화면 리뉴얼 및 채팅 UX 개선
+            - Crashlytics 기반 버그 수정 및 앱 배포 운영
 
             **사용기술**
               `Kotlin`, `MVVM`, `Hilt`, `Room`, `Retrofit`, `Coroutine`,`Firebase`, `Jetpack`, `GitHub Actions`
@@ -195,7 +195,7 @@ content:
           - 구글 GeoCoding기술을 이용한 역지오코딩 개발진행
           
           **사용기술**
-          `Kotlin`, `Airbnb API`, `BLE`, `GeoCoding`
+          `Kotlin`, `Airbnb API`, `BLE`, `GeoCoding`r
           
           **느낀 점**
           - 기존 GeoCoding이 아닌 역지오코딩을 구현함으로써 지오코딩에 대한 개념을 쌓을 수 있었습니다.
