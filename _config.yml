@@ -195,7 +195,7 @@ content:
           - 구글 GeoCoding기술을 이용한 역지오코딩 개발진행
           
           **사용기술**
-          `Kotlin`, `Airbnb API`, `BLE`, `GeoCoding'
+          `Kotlin`, `Airbnb API`, `BLE`, `GeoCoding`
           
           **느낀 점**
           - 기존 GeoCoding이 아닌 역지오코딩을 구현함으로써 지오코딩에 대한 개념을 쌓을 수 있었습니다.
