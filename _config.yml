@@ -48,7 +48,7 @@ about_content: |
    - ETC: `BLE`,`Retrofit`, `다국어 지원`, `CI/CD(GitHub Actions)`
 
 content:
-  - title: Work Experienc **(총 경력 7년)**
+  - title: Work Experience <strong>(총 경력 7년)</strong>
     layout: list
     content:
       - layout: left
